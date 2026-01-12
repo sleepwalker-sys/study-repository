@@ -81,4 +81,10 @@ nothing added to commit but untracked files present (use "git add" to track) -  
 // base: <branch> - слияние в эту ветку
 // compare: <branch> - ветка которая просится на слияние
 
+// git squash
+// git rebase
+// git pull - обращение к Git, на проверку новых изменений в ветке, если есть добавь
+
+// git checkout <hash-код коммита> - переключаться между версиями (hash-код можно получить с помощью git log)
+
 // 1:37:15
