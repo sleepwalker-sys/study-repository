@@ -86,5 +86,4 @@ nothing added to commit but untracked files present (use "git add" to track) -  
 // git pull - обращение к Git, на проверку новых изменений в ветке, если есть добавь
 
 // git checkout <hash-код коммита> - переключаться между версиями (hash-код можно получить с помощью git log)
-
 // 1:37:15
