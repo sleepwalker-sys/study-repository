@@ -88,9 +88,6 @@ nothing added to commit but untracked files present (use "git add" to track) -  
 // git pull - обращение к Git, на проверку новых изменений в ветке, если есть добавь
 
 // git checkout <hash-код коммита> - переключаться между версиями (hash-код можно получить с помощью git log)
-<<<<<<< HEAD
-=======
 // git clone <HTTPS/SSH key> - клонирование удаленного репозитория себе в качестве локального репозитория (в терминале ОС)
 
->>>>>>> b8eb13134e6c50ddde3b7b6fbba7580ff5575fb6
 // 1:37:15
