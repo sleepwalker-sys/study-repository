@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"study/feature1"
 	"study/feature2"
+	simpleconnection "study/feature_postgres/simple_connection"
 )
 
 func main() {
 	fmt.Println("Hello Git!")
 	feature1.Feature1()
 	feature2.Feature2()
+	simpleconnection.CheckConnection()
 }
 
 // Перед тем как создавать свою репозиторию нужно дать понять нашему аккаунту на GitHub что мы можем спокойно сохранять проект,
@@ -86,4 +88,9 @@ nothing added to commit but untracked files present (use "git add" to track) -  
 // git pull - обращение к Git, на проверку новых изменений в ветке, если есть добавь
 
 // git checkout <hash-код коммита> - переключаться между версиями (hash-код можно получить с помощью git log)
+<<<<<<< HEAD
+=======
+// git clone <HTTPS/SSH key> - клонирование удаленного репозитория себе в качестве локального репозитория (в терминале ОС)
+
+>>>>>>> b8eb13134e6c50ddde3b7b6fbba7580ff5575fb6
 // 1:37:15
